@@ -1,27 +1,119 @@
-# Frontend
+# TedBus
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+TedBus is a MEAN stack application that replicates the functionalities of the popular bus booking service, RedBus. The application provides users with the ability to search for bus routes, book tickets, and manage their bookings.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Search for bus routes
+- Book tickets
+- Manage bookings
+- User authentication and authorization
+- Admin panel for managing routes and bookings
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend:**
+  - Angular 17.3.0
+  - Angular Material 17.3.8
+  - RxJS 7.8.0
+  - TSLib 2.3.0
+  - Zone.js 0.14.3
 
-## Build
+- **Backend:**
+  - Express 4.19.2
+  - MongoDB 6.6.2
+  - Mongoose 8.4.0
+  - Body-Parser 1.20.2
+  - CORS 2.8.5
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Prerequisites
 
-## Running unit tests
+Before you begin, ensure you have met the following requirements:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js and npm installed on your machine
+- MongoDB installed and running
 
-## Running end-to-end tests
+## Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone the repository
 
-## Further help
+    ```bash
+    git clone https://github.com/yourusername/tedbus.git
+    cd tedbus
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Backend Setup
+
+1. Navigate to the `server` directory
+
+    ```bash
+    cd server
+    ```
+
+2. Install backend dependencies
+
+    ```bash
+    npm install
+    ```
+
+3. Start the backend server
+
+    ```bash
+    npm start
+    ```
+
+The backend server will run on `http://localhost:5000`.
+
+### Frontend Setup
+
+1. Navigate to the `client` directory
+
+    ```bash
+    cd frontend
+    ```
+
+2. Install frontend dependencies
+
+    ```bash
+    npm install
+    ```
+
+3. Start the frontend development server
+
+    ```bash
+    ng serve
+    ```
+
+The frontend server will run on `http://localhost:4200`.
+
+## Usage
+
+1. Open your browser and navigate to `http://localhost:4200`.
+2. Use the application to search for bus routes, book tickets, and manage your bookings.
+
+## Contributing
+
+To contribute to TedBus, follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-name`)
+3. Make your changes and commit them (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Create a new Pull Request
+
+## Contact
+
+If you want to contact me, you can reach me at [girishmaharana42@gmail.com ].
+
+## Acknowledgments
+
+- [RedBus](https://www.redbus.in/) for the inspiration.
+
+---
+
+### Installing Angular Packages
+
+To install the Angular packages, run the following command in the `client` directory:
+
+```bash
+npm install @angular/animations@^17.3.0 @angular/cdk@^17.3.8 @angular/common@^17.3.0 @angular/compiler@^17.3.0 @angular/core@^17.3.0 @angular/forms@^17.3.0 @angular/material@^17.3.8 @angular/platform-browser@^17.3.0 @angular/platform-browser-dynamic@^17.3.0 @angular/router@^17.3.0 rxjs@~7.8.0 tslib@^2.3.0 zone.js@~0.14.3
